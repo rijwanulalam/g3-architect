@@ -52,13 +52,39 @@ header{
          header 
 --------------------------*/
 .header-container{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+.logo h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #131313;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+ul li{
+    list-style: none;
+}
+ul li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #424242;
 }
 .banner-container{
     text-align: center;
 }
 .banner-info{
-    /* margin: 50px 290px; */
+    margin: 50px 290px;
 }
 .banner-title{
     font-size: 64px;
