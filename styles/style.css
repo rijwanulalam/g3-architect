@@ -169,6 +169,7 @@ ul li > a{
 }
 .features-image{
     position: relative;
+    transition: transform 2s linear o.1s;
 }
 .secondary-btn{
     font-size: 25px;
@@ -183,7 +184,11 @@ ul li > a{
     left: -80px;
     bottom: -19px;
     cursor: pointer;
-
+    transition: transform 0.3s linear 0.1s;
+    
+}
+.secondary-btn:hover{
+    transform: scale(1.1);
 }
 .bold{
     font-size: 65px;
