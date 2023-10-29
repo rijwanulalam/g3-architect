@@ -91,6 +91,7 @@ ul li > a{
 }
 .banner-container{
     text-align: center;
+    margin: 79px;
 }
 .banner-info{
     margin: 50px 290px;
@@ -305,14 +306,14 @@ ul li > a{
     }
 
     .banner-container{
-        margin: 0 10px;
+        margin: 74px 10px 0;
     }
     .banner-info{
         margin: 20px 0;
     }
     .banner-title{
         font-size: 40px;
-        line-height: 55px;
+        line-height: 40px;
     }
     .banner-image img{
         width: 100%;
