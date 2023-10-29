@@ -60,6 +60,9 @@ header{
 .header-container{
     padding-bottom: 50px;
 }
+nav{
+    padding: 30px 0;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
